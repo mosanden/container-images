@@ -6,8 +6,6 @@ on:
     paths: [ "kubectl/**" ]
   pull_request:
     paths: [ "kubectl/**" ]
-  schedule:
-  - cron:  '00 6 * * *'
 
 jobs:
   build-and-push-kubectl:
